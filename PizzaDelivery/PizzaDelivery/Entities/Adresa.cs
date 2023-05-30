@@ -53,5 +53,17 @@ namespace PizzaDelivery.Entities
         {
             String newStrada = "Str." + adresa.strada;
         }
+
+        public bool AdresaEsteIncompleta()
+        {
+            if (string.IsNullOrEmpty(_strada) || string.IsNullOrEmpty(_numar) || string.IsNullOrEmpty(_cartier))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

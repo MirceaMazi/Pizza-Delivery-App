@@ -8,5 +8,6 @@ namespace PizzaDelivery.Entities
 {
     internal interface IPretTotal
     {
+        float CalculeazaPret();
     }
 }

@@ -1,0 +1,12 @@
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\bin\Debug\PizzaDelivery.exe.config
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\bin\Debug\PizzaDelivery.exe
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\bin\Debug\PizzaDelivery.pdb
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.csproj.AssemblyReference.cache
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.csproj.SuggestedBindingRedirects.cache
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.Properties.Resources.resources
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.csproj.GenerateResource.cache
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.csproj.CoreCompileInputs.cache
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.exe
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.pdb
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.Forms.FormComanda.resources
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.MainForm.resources
