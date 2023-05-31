@@ -113,5 +113,24 @@ namespace PizzaDelivery.Forms
             e.HasMorePages = false;
             currentPageIndex = 0;
         }
+
+        private void textBox1_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text))
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+        }
+
+        private void textBox1_DragDrop(object sender, DragEventArgs e)
+        {
+            string droppedText = e.Data.GetData(DataFormats.Text).ToString();
+            textBox1.AppendText(droppedText);
+        }
+
+        private void textBox1_DragOver(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Copy;
+        }
     }
 }

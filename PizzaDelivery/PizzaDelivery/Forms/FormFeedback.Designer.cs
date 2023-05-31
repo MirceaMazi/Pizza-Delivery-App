@@ -175,11 +175,15 @@
             // 
             // textBox1
             // 
+            this.textBox1.AllowDrop = true;
             this.textBox1.Location = new System.Drawing.Point(17, 430);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(530, 198);
             this.textBox1.TabIndex = 11;
+            this.textBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.textBox1_DragDrop);
+            this.textBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.textBox1_DragEnter);
+            this.textBox1.DragOver += new System.Windows.Forms.DragEventHandler(this.textBox1_DragOver);
             // 
             // gbPizza
             // 
