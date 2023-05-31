@@ -33,10 +33,13 @@
             this.tipCb = new System.Windows.Forms.ComboBox();
             this.counterCantitate = new System.Windows.Forms.NumericUpDown();
             this.lvPizza = new System.Windows.Forms.ListView();
-            this.butonAdaugare = new System.Windows.Forms.Button();
+            this.Comanda = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Tip = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Cantitate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Comanda = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.butonAdaugare = new System.Windows.Forms.Button();
+            this.backBtn2 = new PizzaDelivery.Entities.backBtn();
+            this.backBtn1 = new PizzaDelivery.Entities.backBtn();
+            this.btnExport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.counterCantitate)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +71,7 @@
             // 
             this.tipCb.BackColor = System.Drawing.SystemColors.Window;
             this.tipCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.tipCb.ForeColor = System.Drawing.Color.Transparent;
+            this.tipCb.ForeColor = System.Drawing.Color.Black;
             this.tipCb.FormattingEnabled = true;
             this.tipCb.Location = new System.Drawing.Point(151, 13);
             this.tipCb.Name = "tipCb";
@@ -84,6 +87,7 @@
             this.counterCantitate.TabIndex = 6;
             this.counterCantitate.ValueChanged += new System.EventHandler(this.counterCantitate_ValueChanged);
             this.counterCantitate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.counterCantitate_KeyDown);
+            this.counterCantitate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.counterCantitate_KeyPress);
             // 
             // lvPizza
             // 
@@ -94,24 +98,15 @@
             this.lvPizza.HideSelection = false;
             this.lvPizza.Location = new System.Drawing.Point(12, 129);
             this.lvPizza.Name = "lvPizza";
-            this.lvPizza.Size = new System.Drawing.Size(604, 287);
+            this.lvPizza.Size = new System.Drawing.Size(728, 287);
             this.lvPizza.TabIndex = 7;
             this.lvPizza.UseCompatibleStateImageBehavior = false;
             this.lvPizza.View = System.Windows.Forms.View.Details;
             // 
-            // butonAdaugare
+            // Comanda
             // 
-            this.butonAdaugare.BackColor = System.Drawing.Color.DarkRed;
-            this.butonAdaugare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.butonAdaugare.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butonAdaugare.ForeColor = System.Drawing.Color.Gold;
-            this.butonAdaugare.Location = new System.Drawing.Point(305, 13);
-            this.butonAdaugare.Name = "butonAdaugare";
-            this.butonAdaugare.Size = new System.Drawing.Size(172, 82);
-            this.butonAdaugare.TabIndex = 8;
-            this.butonAdaugare.Text = "Adauga comanda";
-            this.butonAdaugare.UseVisualStyleBackColor = false;
-            this.butonAdaugare.Click += new System.EventHandler(this.butonAdaugare_Click);
+            this.Comanda.Text = "NrComanda";
+            this.Comanda.Width = 193;
             // 
             // Tip
             // 
@@ -123,18 +118,59 @@
             this.Cantitate.Text = "Cantitate";
             this.Cantitate.Width = 209;
             // 
-            // Comanda
+            // butonAdaugare
             // 
-            this.Comanda.DisplayIndex = 2;
-            this.Comanda.Text = "NrComanda";
-            this.Comanda.Width = 193;
+            this.butonAdaugare.BackColor = System.Drawing.Color.DarkRed;
+            this.butonAdaugare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.butonAdaugare.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butonAdaugare.ForeColor = System.Drawing.Color.Gold;
+            this.butonAdaugare.Location = new System.Drawing.Point(278, 13);
+            this.butonAdaugare.Name = "butonAdaugare";
+            this.butonAdaugare.Size = new System.Drawing.Size(151, 81);
+            this.butonAdaugare.TabIndex = 8;
+            this.butonAdaugare.Text = "Adauga comanda";
+            this.butonAdaugare.UseVisualStyleBackColor = false;
+            this.butonAdaugare.Click += new System.EventHandler(this.butonAdaugare_Click);
+            // 
+            // backBtn2
+            // 
+            this.backBtn2.BackColor = System.Drawing.Color.DarkRed;
+            this.backBtn2.Location = new System.Drawing.Point(614, 114);
+            this.backBtn2.Name = "backBtn2";
+            this.backBtn2.Size = new System.Drawing.Size(8, 8);
+            this.backBtn2.TabIndex = 10;
+            // 
+            // backBtn1
+            // 
+            this.backBtn1.BackColor = System.Drawing.Color.DarkRed;
+            this.backBtn1.Location = new System.Drawing.Point(445, 13);
+            this.backBtn1.Name = "backBtn1";
+            this.backBtn1.Size = new System.Drawing.Size(127, 68);
+            this.backBtn1.TabIndex = 11;
+            // 
+            // btnExport
+            // 
+            this.btnExport.BackColor = System.Drawing.Color.DarkRed;
+            this.btnExport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.ForeColor = System.Drawing.Color.Gold;
+            this.btnExport.Location = new System.Drawing.Point(589, 13);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(151, 81);
+            this.btnExport.TabIndex = 12;
+            this.btnExport.Text = "Exporta .txt";
+            this.btnExport.UseVisualStyleBackColor = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // FormComanda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(634, 428);
+            this.ClientSize = new System.Drawing.Size(752, 428);
+            this.Controls.Add(this.btnExport);
+            this.Controls.Add(this.backBtn1);
+            this.Controls.Add(this.backBtn2);
             this.Controls.Add(this.butonAdaugare);
             this.Controls.Add(this.lvPizza);
             this.Controls.Add(this.counterCantitate);
@@ -161,5 +197,8 @@
         private System.Windows.Forms.ColumnHeader Comanda;
         private System.Windows.Forms.ColumnHeader Tip;
         private System.Windows.Forms.ColumnHeader Cantitate;
+        private Entities.backBtn backBtn2;
+        private Entities.backBtn backBtn1;
+        private System.Windows.Forms.Button btnExport;
     }
 }

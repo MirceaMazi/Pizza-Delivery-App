@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Adresa.cs" />
+    <Compile Include="Entities\backBtn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entities\backBtn.Designer.cs">
+      <DependentUpon>backBtn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Client.cs" />
     <Compile Include="Entities\IPretTotal.cs" />
     <Compile Include="Entities\Pizza.cs" />
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Entities\backBtn.resx">
+      <DependentUpon>backBtn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormComanda.resx">
       <DependentUpon>FormComanda.cs</DependentUpon>
     </EmbeddedResource>

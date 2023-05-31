@@ -40,7 +40,7 @@
             this.butonComanda.Cursor = System.Windows.Forms.Cursors.Hand;
             this.butonComanda.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butonComanda.ForeColor = System.Drawing.Color.Gold;
-            this.butonComanda.Location = new System.Drawing.Point(547, 336);
+            this.butonComanda.Location = new System.Drawing.Point(626, 343);
             this.butonComanda.Name = "butonComanda";
             this.butonComanda.Size = new System.Drawing.Size(415, 184);
             this.butonComanda.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.butonFormular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.butonFormular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butonFormular.ForeColor = System.Drawing.Color.Gold;
-            this.butonFormular.Location = new System.Drawing.Point(547, 156);
+            this.butonFormular.Location = new System.Drawing.Point(626, 163);
             this.butonFormular.Name = "butonFormular";
             this.butonFormular.Size = new System.Drawing.Size(415, 191);
             this.butonFormular.TabIndex = 1;
@@ -67,7 +67,7 @@
             this.butonGrafic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.butonGrafic.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butonGrafic.ForeColor = System.Drawing.Color.Gold;
-            this.butonGrafic.Location = new System.Drawing.Point(547, -12);
+            this.butonGrafic.Location = new System.Drawing.Point(626, -5);
             this.butonGrafic.Name = "butonGrafic";
             this.butonGrafic.Size = new System.Drawing.Size(415, 177);
             this.butonGrafic.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(951, 506);
+            this.ClientSize = new System.Drawing.Size(1035, 519);
             this.Controls.Add(this.butonGrafic);
             this.Controls.Add(this.butonFormular);
             this.Controls.Add(this.butonComanda);
