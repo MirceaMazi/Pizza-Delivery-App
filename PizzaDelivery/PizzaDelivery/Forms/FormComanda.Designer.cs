@@ -143,7 +143,7 @@
             // backBtn1
             // 
             this.backBtn1.BackColor = System.Drawing.Color.DarkRed;
-            this.backBtn1.Location = new System.Drawing.Point(445, 13);
+            this.backBtn1.Location = new System.Drawing.Point(613, 13);
             this.backBtn1.Name = "backBtn1";
             this.backBtn1.Size = new System.Drawing.Size(127, 68);
             this.backBtn1.TabIndex = 11;
@@ -154,7 +154,7 @@
             this.btnExport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExport.ForeColor = System.Drawing.Color.Gold;
-            this.btnExport.Location = new System.Drawing.Point(589, 13);
+            this.btnExport.Location = new System.Drawing.Point(446, 13);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(151, 81);
             this.btnExport.TabIndex = 12;

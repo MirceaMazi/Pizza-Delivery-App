@@ -32,6 +32,7 @@
             this.butonComanda = new System.Windows.Forms.Button();
             this.butonFormular = new System.Windows.Forms.Button();
             this.butonGrafic = new System.Windows.Forms.Button();
+            this.btnX = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butonComanda
@@ -60,6 +61,7 @@
             this.butonFormular.TabIndex = 1;
             this.butonFormular.Text = "Formular feedback";
             this.butonFormular.UseVisualStyleBackColor = false;
+            this.butonFormular.Click += new System.EventHandler(this.butonFormular_Click);
             // 
             // butonGrafic
             // 
@@ -73,6 +75,20 @@
             this.butonGrafic.TabIndex = 2;
             this.butonGrafic.Text = "Grafic vanzari";
             this.butonGrafic.UseVisualStyleBackColor = false;
+            this.butonGrafic.Click += new System.EventHandler(this.butonGrafic_Click);
+            // 
+            // btnX
+            // 
+            this.btnX.BackColor = System.Drawing.Color.DarkRed;
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.ForeColor = System.Drawing.Color.Gold;
+            this.btnX.Location = new System.Drawing.Point(12, 12);
+            this.btnX.Name = "btnX";
+            this.btnX.Size = new System.Drawing.Size(70, 62);
+            this.btnX.TabIndex = 3;
+            this.btnX.Text = "X";
+            this.btnX.UseVisualStyleBackColor = false;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // MainForm
             // 
@@ -81,6 +97,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1035, 519);
+            this.Controls.Add(this.btnX);
             this.Controls.Add(this.butonGrafic);
             this.Controls.Add(this.butonFormular);
             this.Controls.Add(this.butonComanda);
@@ -97,6 +114,7 @@
         private System.Windows.Forms.Button butonComanda;
         private System.Windows.Forms.Button butonFormular;
         private System.Windows.Forms.Button butonGrafic;
+        private System.Windows.Forms.Button btnX;
     }
 }
 

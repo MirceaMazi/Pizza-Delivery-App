@@ -30,5 +30,23 @@ namespace PizzaDelivery
             formComanda.ShowDialog();
             this.Show();
         }
+
+        private void butonFormular_Click(object sender, EventArgs e)
+        {
+            var formFeedback = new FormFeedback();
+            this.Hide();
+            formFeedback.ShowDialog();
+            this.Show();
+        }
+
+        private void butonGrafic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
