@@ -41,12 +41,15 @@ namespace PizzaDelivery
 
         private void butonGrafic_Click(object sender, EventArgs e)
         {
-
+            var formGrafic = new FormGrafic();
+            this.Hide();
+            formGrafic.ShowDialog();
+            this.Show();
         }
-
+        
         private void btnX_Click(object sender, EventArgs e)
         {
-            this.Close();
+           this.Close();
         }
     }
 }

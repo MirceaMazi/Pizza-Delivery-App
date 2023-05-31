@@ -12,3 +12,4 @@ E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\Pi
 E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.MainForm.resources
 E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.Entities.backBtn.resources
 E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.Forms.FormFeedback.resources
+E:\Facultate\Anul II\SEM II\PAW\Proiect\PizzaDelivery\PizzaDelivery\obj\Debug\PizzaDelivery.Forms.FormGrafic.resources

@@ -53,7 +53,7 @@
             this.labelTip.Size = new System.Drawing.Size(122, 29);
             this.labelTip.TabIndex = 0;
             this.labelTip.Text = "Tip pizza:";
-            this.labelTip.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // labelCantitate
             // 
@@ -65,7 +65,7 @@
             this.labelCantitate.Size = new System.Drawing.Size(121, 29);
             this.labelCantitate.TabIndex = 3;
             this.labelCantitate.Text = "Cantitate:";
-            this.labelCantitate.Click += new System.EventHandler(this.label4_Click);
+          
             // 
             // tipCb
             // 
@@ -85,8 +85,6 @@
             this.counterCantitate.Name = "counterCantitate";
             this.counterCantitate.Size = new System.Drawing.Size(121, 22);
             this.counterCantitate.TabIndex = 6;
-            this.counterCantitate.ValueChanged += new System.EventHandler(this.counterCantitate_ValueChanged);
-            this.counterCantitate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.counterCantitate_KeyDown);
             this.counterCantitate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.counterCantitate_KeyPress);
             // 
             // lvPizza

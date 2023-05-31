@@ -36,37 +36,12 @@ namespace PizzaDelivery.Forms {
   
         }
 
-        private void FromComanda_Load(object sender, EventArgs e)
-        {
-           
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             tipPizza selectedPizza = (tipPizza)tipCb.SelectedItem;
 
             Console.WriteLine("Selected Pizza: " + selectedPizza);
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void counterCantitate_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void counterCantitate_KeyDown(object sender, KeyEventArgs e)
-        {
-           
         }
 
         private int numarComanda = 0;

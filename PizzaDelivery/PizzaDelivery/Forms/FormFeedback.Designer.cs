@@ -57,7 +57,7 @@
             this.label1.Size = new System.Drawing.Size(257, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Formular Feedback:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+ 
             // 
             // label2
             // 
@@ -80,7 +80,7 @@
             this.label4.Size = new System.Drawing.Size(241, 29);
             this.label4.TabIndex = 3;
             this.label4.Text = "Ai vrea sa ne spui:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // label5
             // 
@@ -105,7 +105,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Buna";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+       
             // 
             // radioButton2
             // 
@@ -145,7 +145,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Da";
             this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+         
             // 
             // radioButton5
             // 

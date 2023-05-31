@@ -25,26 +25,6 @@ namespace PizzaDelivery.Forms
             btnprint.Click += btnPrint_Click;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnPrint_Click(object sender, EventArgs e)
         {
             documentContent = new StringBuilder();
